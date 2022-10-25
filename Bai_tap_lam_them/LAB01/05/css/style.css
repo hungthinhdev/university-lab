@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  padding-top: 3.5rem;
+  height: 180px;
+  text-align: center;
+  color: #fff;
+  background-image: url('../images05/coffee.jpg');
+}
+
+.main-heading {
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  font-size: 1.25rem;
+}
+
+.sub-heading {
+  font-size: 0.825rem;
+  margin-bottom: 0.75rem;
+}
+
+.sub-heading span {
+  text-transform: uppercase;
+}
+
+.register-btn {
+  font-size: 0.75rem;
+  padding: 0.65rem;
+  text-transform: uppercase;
+  background-color: #E3533C;
+  border: none;
+  color: #fff;
+  outline: none;
+  border-radius: 3px;
+  cursor: pointer;
+}

@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  display: grid;
+  place-content: center;
+}
+
+.contact {
+  width: 550px;
+  padding: 2.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #F2F2F2;
+  gap: 1.5rem;
+  border-radius: 5px;
+}
+
+.contact__logo {
+  margin-bottom: 2rem;
+  width: 60px;
+  height: 60px;
+  border: 3px solid #F93BF4; 
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__logo-icon {
+  width: 70%;
+  height: 70%;
+  aspect-ratio: 16 / 9;
+  object-position: center;
+  object-fit: contain;
+}
+
+.contact__collect-email {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.contact__collect-email .contact-guide {
+  font-size: 0.875rem;
+}
+
+.contact__collect-email .contact-email {
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+.contact__collect-email .send-btn {
+  padding: 0.75rem 1rem;
+  align-self: center;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  border: none;
+  outline: none;
+  color: #fff;
+  background-color: #1D05FF;
+  border-radius: 5px;
+  cursor: pointer;
+}

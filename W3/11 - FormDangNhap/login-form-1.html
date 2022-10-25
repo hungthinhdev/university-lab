@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form đăng nhập</title>
+  <style>
+    body {
+      width: 100vw;
+      height: 100vh;
+    }
+
+    .container {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .input-group {
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .input-group:not(:last-child) { 
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <form align="center">
+      <h1 style="color: red;">Form đăng nhập</h1>
+      <div class="input-group">
+        <label for="username">Tên người dùng:</label>
+        <input type="text" name="username" id="username">
+      </div>
+      <div class="input-group">
+        <label for="password">Mật khẩu:</label>
+        <input type="text" name="password" id="password">
+      </div>
+      <button class="login-btn">Đăng nhập</button>
+    </form>
+  </div>
+</body>
+</html>

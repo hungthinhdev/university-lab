@@ -1,0 +1,14 @@
+body {
+  background-image: url('../images/co-vietnam.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container > div > p:not(:last-child) {
+  margin-bottom: var(--spacing);
+}
+
+img.big-letter {
+  margin-top: var(--spacing);
+  margin-right: 1rem;
+}

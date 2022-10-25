@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --normal-fs: 1.6rem;
+  --blue-clr: blue;
+  --red-clr: rgb(253,1,0);
+  --white-clr: #fff;
+  --purple-clr: #9701C8;
+  --pink-clr: #FF00CD;
+  --flex-gap: 2rem;
+  --spacing: 2rem;
+  --border-radius: .5rem;
+}
+
+html { font-size: 62.5%; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+  line-height: 1.5;
+}
+
+.red-bg-clr { background-color: var(--red-clr); }
+.purple-bg-clr { background-color: var(--purple-clr); }
+.pink-bg-clr { background-color: var(--pink-clr); }
+
+.background-country-flag {
+  background-image: url('../images/co-vietnam.png');
+  background-repeat: no-repeat;
+}
+
+.bg-center { background-position: center; }
+
+.container {
+  padding: 2rem;
+  font-size: var(--normal-fs);
+  display: flex;
+  flex-direction: column;
+  gap: var(--flex-gap);
+}
+
+img { border-radius: var(--border-radius); }
+
+ul li:visited a { color: var(--purple-clr); }
+ul li:active a { color: var(--red-clr); }
+
+ul li a { text-decoration: none; }
+
+.container > div > p { margin-bottom: 1.5rem; }
+
+.main-title {
+  color: var(--white-clr);
+  padding: .5rem 1.5rem;
+}
+
+.d-flex { display: flex; }
+.flex-row { flex-direction: row; }
+.flex-column { flex-direction: column; }
+.space-between-col { justify-content: space-between; }
+.justify-content-center { justify-content: center; }
+.align-items-center { align-items: center; }
+
+.text-bold { font-weight: bold; }
+.text-italic { font-style: italic; }
+
+footer { 
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+footer > a:not(:last-child) { margin-right: 1rem; }
+
+footer > a {
+  display: flex;
+  align-items: center;
+}

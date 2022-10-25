@@ -1,0 +1,80 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { font-size: 62.5%; }
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  width: 700px;
+  height: 350px;
+  padding: 1.5rem;
+  background-image: url('../images/login.jpg');
+  background-size: 40% 70%;
+  background-repeat: no-repeat;
+  background-position: right center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: .2rem dashed #C9090C;
+  border-radius: 1.5rem;
+}
+
+.form-title {
+  margin-bottom: 5rem;
+  font-size: 4rem;
+  color: #C9090C;
+}
+
+.input-group {
+  align-self: flex-start;
+  width: 80%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.input-group label,
+.input-group input {
+  font-size: 2rem;
+}
+
+.input-group input {
+  padding: .5rem;
+  background-color: rgba(252, 203, 204, 0.7);
+  border: .15rem dashed #C9090C;
+  border-radius: 1.5rem;
+}
+
+.input-group:not(:last-child) { 
+  margin-bottom: 5px;
+}
+
+.input-group > *:not(:last-child) {
+  margin-right: 5px;
+}
+
+form .login-btn {
+  font-size: 1.5rem;
+  padding: .5rem 1rem;
+  font-weight: 700;
+  color: #fff;
+  background-color: #F60D00;
+  outline: none;
+  box-shadow: .15rem .15rem #000;
+  cursor: pointer;
+  border-radius: 1.5rem;
+}

@@ -1,0 +1,130 @@
+*, 
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html { font-size: 100%; }
+
+body {
+  background-image: url('../images/nen-hoa-hong.png');
+  background-color: #9A0101;
+  background-position: bottom right;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.sub-bg-img {
+  width: 20rem;
+  height: 80%;
+  background-image: url('../images//kim-tea-hee.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  left: 2.5rem;
+  bottom: 0;
+  z-index: 10;
+  display: flex;
+  align-items: flex-end;
+  justify-content: end;
+}
+
+.rose-img {
+  width: 80%;
+  height: 15rem;
+}
+
+.container {
+  width: 60%;
+  height: 100vh;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+table {
+  width: 800px;
+  outline: .2rem solid #FFCCFF;
+}
+
+table .gift-img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+}
+
+.table-title-row td {
+  width: 80%;
+}
+
+.table-title-row td {
+  width: 100%;
+}
+
+.table-data-row div {
+  width: calc((100% - 45px) / 2);
+}
+
+.table-data-row div:nth-child(1) {
+  float: left;
+}
+
+.table-data-row div:nth-child(2) {
+  float: right;
+}
+
+.data-sub-heading {
+  background-color: #FE0000;
+}
+
+.sub-heading {
+  margin-right: 1rem;
+  color: #fff;
+  text-align: right;
+}
+
+.data-brand-img {
+  background-color: #FFCCFF;
+  padding: 1rem;
+}
+
+.data-main-heading {
+  background-color: #FFCCFF;
+}
+
+.main-heading {
+  text-align: center;
+  color: #FE0000;
+}
+
+.table-main-content {
+  padding: 2rem 3rem;
+  background-color: #9A0101;
+}
+
+.main-list-title {
+  color: #FE0000;
+  list-style-type: square;
+  font-size: 1.25rem;
+  margin-bottom: .75rem;
+}
+
+.list-data {
+  font-size: 1.05rem;
+  margin-bottom: .75rem;
+  color: #FFCCFF;
+}
+
+.highlight-italic {
+  font-style: italic;
+  font-weight: 700;
+}
+
+.award-detail {
+  color: #FFCCFF;
+  font-size: 1.05rem;
+}

@@ -1,0 +1,41 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.center-content {
+  display: grid;
+  place-items: center;
+}
+
+.container {
+  height: 100%;
+}
+
+.title {
+  margin-bottom: 2rem;
+  color: #333333;
+}
+
+.tag-group {
+  width: 450px;
+  padding-left: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.tag-group span {
+  display: inline-block;
+  background-color: #9AE13E;
+  color: #fff;
+  padding: .5rem;
+  border-radius: .25rem;
+}
+

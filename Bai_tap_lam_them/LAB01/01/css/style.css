@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  height: 100%;
+  display: grid;
+  place-content: center;
+}
+
+.container > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.25rem;
+  color: #333333;
+}
+
+.brand-name {
+  font-size: 3.5rem;
+  text-transform: capitalize;
+}
+
+.brand-name span {
+  color: #220AF5;
+}
+
+.brand-speciality {
+  font-size: 1.25rem;
+}
+
+.product-group {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.product-group div {
+  padding: 0.75rem;
+  font-size: 1.35rem;
+  background-color: #2D3032;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: .5rem;
+}

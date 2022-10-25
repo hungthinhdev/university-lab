@@ -1,0 +1,16 @@
+.row { width: 100%; }
+
+.row div[class *= "col"] { 
+  float: left;
+}
+
+.row div[class *= "col"]:not(:last-child) { 
+  margin-right: calc(var(--spacing));
+  padding-right: calc(var(--spacing));
+}
+
+.row div[class *= "col"]:not(:last-child) {
+  border-right: .2rem dashed var(--blue-clr);
+}
+
+.col-3 { width: calc(calc(100% - calc(4 * var(--spacing))) / 3); }

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Phiếu đăng ký tham gia chương trình khuyến mãi</title>
+</head>
+<body>
+  <div class="container">
+    <div class="register-form">
+      <h1 class="form-title">Phiếu đăng ký tham gia chương trình khuyến mãi
+      </h1>
+      <div>
+        <div class="row">
+          <div class="row-span-3">Họ tên</div>
+          <div class="row-span-7">
+            <input type="text" name="name" id="name" class="fullname-input">
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-span-3 d-flex align-center">Địa chỉ</div>
+          <div class="row-span-7">
+            <textarea name="address" id="address" cols="50" rows="7" class="address-input"></textarea>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-span-3">Điện thoại</div>
+          <div class="row-span-7">
+            <input type="text" name="phone-number" id="phone-number" class="phone-input">
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-span-3">Giới tính</div>
+          <div class="row-span-7">
+            <input type="radio" name="male-gender" id="male-gender" value="male">
+            <label for="male-gender">Nam</label>
+            <input type="radio" name="female-gender" id="female-gender" value="female">
+            <label for="female-gender">Nữ</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-span-3">Nghề nghiệp</div>
+          <div class="row-span-7">
+            <select name="career" id="career" class="career-select">
+              <option value="Bác sĩ">Bác sĩ</option>
+              <option value="Kỹ sư">Kỹ sư</option>
+              <option value="Giáo viên">Giáo viên</option>
+              <option value="Khác">Khác</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-span-3 d-flex align-center">Chọn sản phẩm tham gia</div>
+          <div class="row-span-7">
+            <select name="products" id="products" class="products-select" multiple>
+              <option value="Kem đánh răng">Kem đánh răng</option>
+              <option value="Bột giặt">Bột giặt</option>
+              <option value="Dầu gội đầu">Dầu gội đầu</option>
+              <option value="Sữa tắm">Sữa tắm</option>
+            </select>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-span-3">Số người dự đoán tham gia</div>
+          <div class="row-span-7">
+            <input type="number" name="register-num" id="register-num" value="300000">
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-span-full text-center">
+            <button class="agree-btn">Đồng ý</button>
+          </div>
+        </div>
+        <div class="row">
+          <div class="row-span-full text-center">
+            <h3 class="inform-status">Bạn đã đăng ký thành công!!!</h3>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

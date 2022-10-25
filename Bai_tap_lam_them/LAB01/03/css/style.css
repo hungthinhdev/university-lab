@@ -1,0 +1,50 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  width: 35%;
+  margin: 0 auto;
+}
+
+article {
+  margin-top: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.main-title {
+  font-size: 2.15rem;
+}
+
+article .article-img {
+  height: 340px;
+  aspect-ratio: 16 / 9;
+}
+
+article p {
+  color: #B9B9B9;
+}
+
+article p:nth-of-type(2) {
+  padding-left: 2rem;
+}
+
+article .read-btn {
+  align-self: flex-start;
+  padding: 1rem 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  background-color: #35BACF;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}

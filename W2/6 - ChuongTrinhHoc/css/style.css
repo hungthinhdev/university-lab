@@ -1,0 +1,80 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.top-image {
+  width: 100%;
+  height: 10vh;
+  background-image: url('../images/nguyen-tac-trong-thiet-ke-do-hoa.jpg');
+  background-size: 20%;
+  background-position: top left;
+  background-repeat: repeat;
+}
+
+.bottom-image {
+  width: 100%;
+  height: 60vh;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.container {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+table tr td {
+  border: 0.2rem solid #fff;
+  padding: 0.25rem 0.15rem;
+}
+
+table.main-table {
+  width: 100%;
+  border: 10px solid white;
+  background-color: rgb(13, 194, 13);
+  font-size: 1.25rem;
+}
+
+.table-caption {
+  font-size: 2rem;
+  font-weight: bold;
+  color: rgb(13, 194, 13);
+  text-transform: uppercase;
+}
+
+.table-type-name { 
+  font-weight: bold;
+  color: white;
+}
+
+.table-type-name.-upper {
+  text-transform: uppercase;
+}
+
+.table-data-row td {
+  color: black;
+}
+
+.table-data-row:nth-child(odd) {
+  background-color: #fff;
+}
+
+.table-data-row:nth-child(even) {
+  background-color: aqua;
+}
+
+.table-data-row.-last-row {
+  background-color: orange;
+}
